@@ -1,0 +1,81 @@
+.opstions {
+    background-color: #f5f5f5;
+    padding-bottom: 50px;
+  }
+  .variants {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .variant {
+    width: 33%;
+    max-width: 370px;
+  }
+  .variant1 {
+    margin-top: -30px;
+  }
+  .variant p {
+    border: 2px solid #f5f5f5;
+    padding-top: 13px;
+  }
+  
+  .variant_head {
+    background-color: #333333;
+  }
+  
+  .var_title {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    height: 60px;
+  }
+  .var_price {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    height: 100px;
+  }
+  
+  .var_sub-title {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff80;
+    height: 50px;
+  }
+  .var_size {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #86878b;
+    height: 50px;
+    background-color: #ffffff;
+  }
+  @media (max-width: 770px){
+    .variants {
+      flex-direction: column;
+      align-items: center;
+    }
+    .variant {
+      width: 90%;
+      max-width: 500px;
+      padding-bottom: 30px;
+    }
+    .variant1 {
+      margin-top: 0px;
+    }
+  }

@@ -1,0 +1,28 @@
+.design {
+    background: url(../img/design/bg.png) no-repeat center;
+    background-size: cover;
+    padding-bottom: 50px;
+  }
+  .design .container {
+    color: #ffffff;
+  }
+  
+  .design .section_text::before {
+    background-color: #ffffff;
+  }
+  .design_btn button {
+    margin-top: 45px;
+    width: 30%;
+    max-width: 370px;
+  }
+  @media (max-width: 770px){
+    .design_btn button {
+      margin-top: 45px;
+      width: 90%;
+      max-width: 500px;
+      
+    }
+    .design .section_header{
+  margin:0 10px;
+    }
+  }
